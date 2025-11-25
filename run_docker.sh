@@ -4,7 +4,7 @@ FILE_DIR=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
 OUTPUT_DIR="${FILE_DIR}/results"
 SOURCE_DIR="${FILE_DIR}/src"
 
-USE_HARE=0
+USE_HARE=1
 
 # if USE_HARE is set to 1, replace all instances of 'docker' with hare
 if [ "$USE_HARE" -eq 1 ]; then
