@@ -31,7 +31,7 @@ $DOCKER_CMD run --name isaac-lab -e "ACCEPT_EULA=Y" --gpus all --rm \
 # change the user 
 
 # Can be used like below - will have to modify our own scripts as everything seems to be relative to require ./isaaclab.sh
-# ./isaaclab.sh -p scripts/reinforcement_learning/sb3/train.py --task Isaac-Cartpole-v0 --num_envs 64 --headless --video
+# ./isaaclab.sh -p scripts/reinforcement_learning/sb3/train.py --task Isaac-Cartpole-v0 --num_envs 64 --headless
 #
 # # in the docker container run the following:
 # # - python scripts/reinforcement_learning/skrl/train.py --task=Isaac-Ant-v0 --num_envs 64 --headless --video
